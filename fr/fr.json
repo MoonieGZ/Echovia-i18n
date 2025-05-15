@@ -1,194 +1,202 @@
 {
   "app": {
     "title": "Echovia",
-    "loading": "Loading data..."
+    "loading": "Chargement des données..."
   },
   "header": {
-    "back": "Back",
-    "settings": "Settings",
-    "github": "GitHub Repository",
-    "reset": "Reset"
+    "back": "Précédent",
+    "settings": "Paramètres",
+    "github": "Dépôt GitHub",
+    "reset": "Réinitialiser"
   },
   "footer": {
-    "version": "Ver:",
+    "version": "Version :",
     "copyright": "Moons © 2025"
   },
   "common": {
-    "cancel": "Cancel",
-    "confirm": "Confirm",
-    "characters": "Characters",
-    "bosses": "Bosses",
-    "legend": "Legend",
-    "import": "Import"
+    "cancel": "Annuler",
+    "confirm": "Confirmer",
+    "characters": "Personnages",
+    "bosses": "Boss",
+    "legend": "Légende",
+    "import": "Importer"
   },
   "main": {
     "roll": {
-      "characters": "Roll Characters",
-      "bosses": "Roll Bosses",
-      "both": "Roll Both"
+      "characters": "Tirer les Personnages",
+      "bosses": "Tirer les Boss",
+      "both": "Tirer les Deux"
     }
   },
   "genshin": {
-    "title": "Genshin Impact Randomizer",
-    "availableCharacters": "Available characters",
-    "availableBosses": "Available bosses",
-    "characterCount": "Character count",
-    "bossCount": "Boss count",
-    "randomizer": "Randomizer"
+    "title": "Randomiseur Genshin Impact",
+    "availableCharacters": "Personnages disponibles",
+    "availableBosses": "Boss disponibles",
+    "characterCount": "Nombre de personnages",
+    "bossCount": "Nombre de boss",
+    "randomizer": "Randomiseur"
   },
   "results": {
-    "title": "Randomization Results",
-    "selectAll": "Select All",
-    "unselectAll": "Unselect All",
-    "close": "Close",
-    "accept": "Accept",
-    "noCharactersSelected": "No characters selected",
-    "selectAtLeastOne": "Please select at least one character to accept.",
-    "charactersAccepted": "Characters accepted",
-    "charactersExcluded": "character(s) have been excluded from future rolls."
+    "title": "Résultats de la Randomisation",
+    "selectAll": "Tout sélectionner",
+    "unselectAll": "Tout désélectionner",
+    "close": "Fermer",
+    "accept": "Accepter",
+    "noCharactersSelected": "Aucun personnage sélectionné",
+    "selectAtLeastOne": "Veuillez sélectionner au moins un personnage à accepter.",
+    "charactersAccepted": "Personnages acceptés",
+    "charactersExcluded": "personnage(s) ont été exclus de futurs lancements."
   },
   "settings": {
-    "title": "Settings",
-    "subtitle": "Customize which characters and bosses can be selected in the randomizer",
-    "excluded": "Excluded",
-    "rules": "Rules",
-    "openWiki": "Open Wiki for this boss",
+    "title": "Paramètres",
+    "subtitle": "Personnaliser les personnages et les boss qui peuvent être sélectionnés dans le randomiseur",
+    "excluded": "Exclus",
+    "rules": "Règles",
+    "openWiki": "Ouvrir le Wiki pour ce boss",
     "filter": {
-      "filter": "Filter",
-      "bosses": "Filter bosses",
-      "characters": "Filter characters"
+      "filter": "Filtrer",
+      "bosses": "Filtrer les boss",
+      "characters": "Filtrer les personnages"
     },
     "search": {
-      "search": "Search",
-      "bosses": "Search bosses",
-      "characters": "Search characters"
+      "search": "Rechercher",
+      "bosses": "Chercher boss",
+      "characters": "Chercher personnage"
     },
     "import": {
-      "title": "Import Characters",
-      "success": "Imported {x} characters successfully",
-      "error": "Error importing characters",
-      "invalidFormat": "Invalid file format",
-      "minLevel": "Minimum Level",
-      "level": "Level",
-      "description": "You can use Genshin Kamera to export your characters.\nHere you can select the minimum level of the characters you want to import.",
-      "preview": "{x} characters will be imported with current settings.",
-      "jsonLoaded": "JSON file loaded",
-      "clickToUpload": "Click to upload JSON file"
+      "title": "Importer les personnages",
+      "success": "Importation de {x} personnages réussie",
+      "error": "Erreur lors de l'importation des personnages",
+      "invalidFormat": "Format de fichier invalide",
+      "minLevel": "Niveau minimum",
+      "level": "Niveau",
+      "description": "Vous pouvez utiliser Genshin Kamera pour exporter vos personnages.\nVous pouvez choisir ici le niveau minimum des personnages que vous voulez importer.",
+      "preview": "{x} personnages seront importés avec les paramètres actuels.",
+      "jsonLoaded": "Fichier JSON chargé",
+      "clickToUpload": "Cliquez pour télécharger un fichier JSON"
     },
     "export": {
-      "title": "Export Characters",
-      "success": "Exported {x} characters successfully",
-      "error": "Error exporting characters",
-      "invalidFormat": "Invalid file format",
-      "clickToDownload": "Click to download JSON file"
+      "title": "Exporter les Personnages",
+      "success": "Exportation des {x} personnages réussie",
+      "error": "Erreur lors de l'exportation des personnages",
+      "invalidFormat": "Format de fichier invalide",
+      "clickToDownload": "Cliquez pour télécharger un fichier JSON"
     },
     "importExport": {
-      "title": "Import/Export"
+      "title": "Importer/Exporter"
     },
-    "enableAll": "Enable All",
-    "disableAll": "Disable All",
-    "disableLegends": "Disable Legends",
-    "coopModeWarning": "Co-op Mode is enabled: Non-co-op bosses are automatically disabled.",
+    "toggle": {
+      "group": "Activer/Désactiver",
+      "all": "Activer/Désactiver tout",
+      "enableAll": "Tout activer",
+      "disableAll": "Tout désactiver",
+      "disableLegends": "Désactiver les légendes",
+      "enable4Star": "Activer 4★",
+      "disable4Star": "Désactiver 4★",
+      "enable5Star": "Activer 5★",
+      "disable5Star": "Désactiver 5★"
+    },
+    "coopModeWarning": "Le mode co-op est activé : les boss non-co-op sont automatiquement désactivés.",
     "coopDisabled": "Co-op N/A",
     "resetConfirm": {
-      "title": "Reset All Settings?",
-      "description": "This will reset all settings to their default values. This action cannot be undone.",
-      "cancel": "Cancel",
-      "confirm": "Reset"
+      "title": "Réinitialiser tous les paramètres ?",
+      "description": "Ceci réinitialisera tous les paramètres à leurs valeurs par défaut. Cette action ne peut pas être annulée.",
+      "cancel": "Annuler",
+      "confirm": "Réinitialiser"
     }
   },
   "rules": {
-    "title": "Rules",
-    "activeRules": "Active rules",
-    "noActiveRules": "No active rules",
+    "title": "Règles",
+    "activeRules": "Règles actives",
+    "noActiveRules": "Aucune règle active",
     "coopMode": {
-      "title": "Co-op Mode",
-      "modeEnabled": "Co-op Mode: Enabled",
-      "description": "Controls whether multiple Travelers with different elements can be selected in a single roll",
-      "enabled": "Rule enabled: Multiple Travelers with different elements can be selected",
-      "disabled": "Rule disabled: Only one Traveler can be selected per roll"
+      "title": "Mode Co-op",
+      "modeEnabled": "Mode Co-op : Activé",
+      "description": "Contrôle si plusieurs Voyageurs avec différents éléments peuvent être sélectionnés en un seul roll",
+      "enabled": "Règle activée : Plusieurs Voyageurs avec différents éléments peuvent être sélectionnés",
+      "disabled": "Règle désactivée : un seul Voyageur peut être sélectionné par roll"
     },
     "fiveStarLimit": {
-      "title": "5-Star Character Limit",
-      "description": "Controls the maximum number of 5-star characters that can be selected in a single roll",
-      "enabled": "Rule enabled: Limit the number of 5-star characters per roll",
-      "disabled": "Rule disabled: No limit on 5-star characters",
-      "maximum": "Maximum 5-star characters:"
+      "title": "Limite de personnage 5 étoiles",
+      "description": "Contrôle le nombre maximum de personnages 5 étoiles qui peuvent être sélectionnés en un seul roll",
+      "enabled": "Règle activée : Limiter le nombre de personnages 5 étoiles par roll",
+      "disabled": "Règle désactivée : aucune limite de personnages 5 étoiles",
+      "maximum": "Personnages 5 étoiles maximum :"
     },
     "notEnoughBosses": {
-      "title": "Not enough bosses available",
-      "description": "Please enable at least {count} bosses in settings."
+      "title": "Pas assez de boss disponibles",
+      "description": "Veuillez activer au moins {count} boss dans les paramètres."
     },
     "notEnoughCharacters": {
-      "title": "Not enough characters available",
-      "description": "Could not select enough characters after applying all rules. Consider adjusting your settings."
+      "title": "Pas assez de personnages disponibles",
+      "description": "Impossible de sélectionner suffisamment de personnages après avoir appliqué toutes les règles. Pensez à ajuster vos paramètres."
     },
     "coopConfirm": {
-      "title": "Disable Non-Co-op Bosses?",
-      "description": "Enabling Co-op mode will disable the following bosses:",
-      "note": "These bosses will be automatically disabled in your settings.",
-      "question": "Do you want to continue?",
-      "cancel": "Cancel",
-      "confirm": "Continue"
+      "title": "Désactiver les boss non-co-op?",
+      "description": "Activer le mode Co-op désactivera les boss suivants :",
+      "note": "Ces boss seront automatiquement désactivés dans vos paramètres.",
+      "question": "Voulez-vous continuer ?",
+      "cancel": "Annuler",
+      "confirm": "Continuer"
     }
   },
   "excluded": {
-    "title": "Excluded Characters",
-    "enableExclusion": "Enable character exclusion",
-    "resetAll": "Reset All",
-    "noCharacters": "No characters have been excluded yet. When you accept characters from the randomizer, they will appear here.",
-    "clickToReEnable": "Click to re-enable"
+    "title": "Personnages exclus",
+    "enableExclusion": "Activer l'exclusion de personnages",
+    "resetAll": "Tout Réinitialiser",
+    "noCharacters": "Aucun personnage n'a encore été exclu. Lorsque vous acceptez les personnages du randomiseur, ils apparaîtront ici.",
+    "clickToReEnable": "Cliquez pour réactiver"
   },
   "accepted": {
-    "title": "Picked Characters",
-    "manage": "Manage"
+    "title": "Personnages choisis",
+    "manage": "Gérer"
   },
   "pool": {
-    "availableCharacters": "Available Characters",
-    "availableBosses": "Available Bosses"
+    "availableCharacters": "Personnages disponibles",
+    "availableBosses": "Boss disponibles"
   },
   "language": {
-    "title": "Language",
-    "en": "English",
-    "es": "Spanish",
-    "fr": "French",
-    "de": "German",
-    "ja": "Japanese",
-    "zh": "Chinese"
+    "title": "Langue",
+    "en": "Anglais",
+    "es": "Espagnol",
+    "fr": "Français",
+    "de": "Allemand",
+    "ja": "Japonais",
+    "zh": "Chinois"
   },
   "wip": {
-    "title": "Under Construction",
-    "description": "This page is currently under construction. Please check back soon for updates."
+    "title": "En cours de construction",
+    "description": "Cette page est en cours de construction. Veuillez revenir bientôt pour les mises à jour."
   },
   "theme": {
-    "title": "Theme",
-    "system": "System",
-    "light": "Light",
-    "dark": "Dark"
+    "title": "Thème",
+    "system": "Système",
+    "light": "Clair",
+    "dark": "Sombre"
   },
   "auth": {
-    "logout": "Log out"
+    "logout": "Se déconnecter"
   },
   "changelog": {
-    "title": "Changelog",
-    "changes": "Changes",
-    "fixes": "Bug Fixes",
-    "knownIssues": "Known Issues"
+    "title": "Journal des modifications",
+    "changes": "Changements",
+    "fixes": "Corrections de bugs",
+    "knownIssues": "Problèmes connus"
   },
   "sidebar": {
-    "playground": "Playground",
+    "playground": "Bac à sable",
     "genshinImpact": "Genshin Impact",
-    "friends": "Friends",
-    "friendsList": "List",
-    "friendsRequests": "Requests",
+    "friends": "Amis",
+    "friendsList": "Liste",
+    "friendsRequests": "Demandes",
     "guides": "Guides",
-    "getStarted": "Get Started",
-    "tutorials": "Tutorials",
-    "changelog": "Changelog",
-    "settings": "Settings",
-    "characters": "Characters",
-    "excludedCharacters": "Excluded Characters",
-    "bosses": "Bosses",
-    "rules": "Rules"
+    "getStarted": "Premiers Pas",
+    "tutorials": "Tutoriels",
+    "changelog": "Journal des modifications",
+    "settings": "Paramètres",
+    "characters": "Personnages",
+    "excludedCharacters": "Personnages exclus",
+    "bosses": "Boss",
+    "rules": "Règles"
   }
 }
