@@ -75,6 +75,16 @@
       "jsonLoaded": "JSON file loaded",
       "clickToUpload": "Click to upload JSON file"
     },
+    "export": {
+      "title": "Export Characters",
+      "success": "Exported {x} characters successfully",
+      "error": "Error exporting characters",
+      "invalidFormat": "Invalid file format",
+      "clickToDownload": "Click to download JSON file"
+    },
+    "importExport": {
+      "title": "Import/Export"
+    },
     "enableAll": "Enable All",
     "disableAll": "Disable All",
     "disableLegends": "Disable Legends",
