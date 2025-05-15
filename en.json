@@ -85,9 +85,17 @@
     "importExport": {
       "title": "Import/Export"
     },
-    "enableAll": "Enable All",
-    "disableAll": "Disable All",
-    "disableLegends": "Disable Legends",
+    "toggle": {
+      "group": "Toggle",
+      "all": "Toggle All",
+      "enableAll": "Enable All",
+      "disableAll": "Disable All",
+      "disableLegends": "Disable Legends",
+      "enable4Star": "Enable 4★",
+      "disable4Star": "Disable 4★",
+      "enable5Star": "Enable 5★",
+      "disable5Star": "Disable 5★"
+    },
     "coopModeWarning": "Co-op Mode is enabled: Non-co-op bosses are automatically disabled.",
     "coopDisabled": "Co-op N/A",
     "resetConfirm": {
