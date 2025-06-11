@@ -73,7 +73,11 @@
       "description": "You can use Genshin Kamera to export your characters.\nHere you can select the minimum level of the characters you want to import.",
       "preview": "{x} characters will be imported with current settings.",
       "jsonLoaded": "JSON file loaded",
-      "clickToUpload": "Click to upload JSON file"
+      "clickToUpload": "Click to upload JSON file",
+      "modeTitle": "Import Mode",
+      "modeDescription": "Do you want to combine the imported characters with your current enabled list, or reset and only enable imported characters?",
+      "combine": "Combine",
+      "reset": "Reset"
     },
     "export": {
       "title": "Export Characters",
