@@ -34,7 +34,8 @@
     "availableBosses": "Available bosses",
     "characterCount": "Character count",
     "bossCount": "Boss count",
-    "randomizer": "Randomizer"
+    "randomizer": "Randomizer",
+    "streams": "Live Streams"
   },
   "results": {
     "title": "Randomization Results",
